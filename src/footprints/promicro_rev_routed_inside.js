@@ -1,7 +1,7 @@
 // Arduino ProMicro atmega32u4au
 //  Take care to bridge the pads on the correct side of the pcb
-//    To orient up, meaning power led faces away from pcb, bridge pads on the opposite side of pcb from the MCU
-//    To orient down, meaning power led faces the pcb, bridge pads on the side of the pcb with the MCU
+//    To orient the MCU up, meaning power led faces away from pcb, bridge the pads on the side of the pcb with the MCU
+//    To orient the MCU down, meaning power led faces the pcb, bridge the pads on the opposite side of the pcb
 
 module.exports = {
   nets: {
