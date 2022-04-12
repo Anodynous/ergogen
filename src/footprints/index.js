@@ -21,5 +21,7 @@ module.exports = {
     trackpoint_mounting: require('./trackpoint_mounting'),
     trrs: require('./trrs'),
     trrs_rev: require('./trrs_rev'),
+    resistor_0805_hand_solder: require('./resistor_0805_hand_solder'),
     via: require('./via'),
+    w25q128jvsim_nor_flash: require('./w25q128jvsim_nor_flash'),
 }
