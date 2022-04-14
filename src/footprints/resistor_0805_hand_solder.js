@@ -2,8 +2,8 @@
 
 module.exports = {
     nets: {
-        P0: undefined,
-        P1: undefined,
+        from: undefined,
+        to: undefined
       },
       params: {
         class: 'Resistor',
@@ -34,8 +34,8 @@ module.exports = {
         (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp fe9d62b8-c669-40f7-9f74-a73c83a94bab))
 
         ${''/* pins */}
-        (pad "1" smd roundrect (at -1 0 ${p.rot}) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) ${p.net.P0.str})
-        (pad "2" smd roundrect (at 1 0 ${p.rot}) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) ${p.net.P1.str})
+        (pad "1" smd roundrect (at -1 0 ${p.rot}) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) ${p.net.from.str})
+        (pad "2" smd roundrect (at 1 0 ${p.rot}) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) ${p.net.to.str})
         )
         `
     }
