@@ -17,6 +17,7 @@ module.exports = {
     rotary: require('./rotary'),
     scrollwheel: require('./scrollwheel'),
     slider: require('./slider'),
+    tentingpuck: require('./tentingpuck'),
     text: require('./text'),
     trackpoint_mounting: require('./trackpoint_mounting'),
     trrs: require('./trrs'),
