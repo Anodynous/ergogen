@@ -19,6 +19,7 @@ module.exports = {
     slider: require('./slider'),
     tentingpuck: require('./tentingpuck'),
     text: require('./text'),
+    through_hole_pad: require('./through_hole_pad'),
     trackpoint_mounting: require('./trackpoint_mounting'),
     trrs: require('./trrs'),
     trrs_rev: require('./trrs_rev'),
