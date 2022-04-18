@@ -17,6 +17,7 @@ module.exports = {
     rgb: require('./rgb'),
     rotary: require('./rotary'),
     scrollwheel: require('./scrollwheel'),
+    SKRHACE010_hand_solder: require('./SKRHACE010_hand_solder'),
     slider: require('./slider'),
     tentingpuck: require('./tentingpuck'),
     text: require('./text'),
