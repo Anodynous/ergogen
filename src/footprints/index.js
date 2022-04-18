@@ -20,6 +20,7 @@ module.exports = {
     tentingpuck: require('./tentingpuck'),
     text: require('./text'),
     through_hole_pad: require('./through_hole_pad'),
+    through_hole_pad_breakoff: require('./through_hole_pad_breakoff'),
     trackpoint_mounting: require('./trackpoint_mounting'),
     trrs: require('./trrs'),
     trrs_rev: require('./trrs_rev'),
