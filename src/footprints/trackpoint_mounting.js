@@ -11,7 +11,7 @@ module.exports = {
         ${p.at /* parametric position */}
 
         ${'' /* footprint reference */}
-        (fp_text reference "${p.ref}" (at 0 -2.4 unlocked) (layer "F.SilkS") hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text reference "${p.ref}" (at 0 -2.4 unlocked) (layer "F.SilkS")  ${p.ref_hide} (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "TrackPoint DS0046 SK8707" (at 0 2.4 unlocked) (layer "F.Fab") hide (effects (font (size 1 1) (thickness 0.15))))
 
         ${''/* silk layer */}

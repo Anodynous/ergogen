@@ -21,7 +21,7 @@ module.exports = {
         ${p.at /* parametric position */}   
 
         ${'' /* footprint reference */}
-        (fp_text reference "${p.ref}" (at 0 1.4 unlocked) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text reference "${p.ref}" (at 0 1.4 unlocked) (layer F.SilkS)  ${p.ref_hide} (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value THT-"${p.param.hole_size}"mm (at 0 -1.4 unlocked) (layer F.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
 
         ${'' /* pad and hole */}

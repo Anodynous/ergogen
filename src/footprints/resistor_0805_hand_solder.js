@@ -18,7 +18,7 @@ module.exports = {
         (tags "resistor handsolder")
         (attr smd)
         (fp_text reference "${p.ref}" (at 0 -1.65 ${p.rot}) (layer "F.SilkS") ${p.ref_hide} (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "R_0805" (at 0 1.65 ${p.rot}) (layer "F.Fab") ${p.ref_hide} (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "R_0805" (at 0 1.65 ${p.rot}) (layer "F.Fab") hide (effects (font (size 1 1) (thickness 0.15))))
 
 
         ${''/* silk layer */}

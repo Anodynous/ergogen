@@ -25,7 +25,7 @@ module.exports = {
         (tags "SOIC SO")
 
         (fp_text reference "${p.ref}" (at 0 -3.56 ${p.rot}) (layer "F.SilkS") ${p.ref_hide} (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "W25Q128JVSIM NOR Flash" (at 0 3.56 ${p.rot}) (layer "F.Fab") ${p.ref_hide} (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "W25Q128JVSIM NOR Flash" (at 0 3.56 ${p.rot}) (layer "F.Fab") hide (effects (font (size 1 1) (thickness 0.15))))
 
         ${''/* silk layer */}
         (fp_line (start -2.725 2.725) (end -2.725 2.465) (layer "F.SilkS") (width 0.12) (tstamp 00138a61-23f0-45f3-9f28-2bbd8494a1fc))

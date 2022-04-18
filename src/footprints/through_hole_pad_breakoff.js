@@ -24,7 +24,7 @@ module.exports = {
 
         ${'' /* footprint reference */}
         (fp_text reference "${p.ref}" (at 0 1.4 unlocked) (layer F.SilkS) ${p.ref_hide} (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value THT-"${p.param.hole_size}"mm (at 0 -1.4 unlocked) (layer F.Fab) ${p.ref_hide} (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value THT-"${p.param.hole_size}"mm (at 0 -1.4 unlocked) (layer F.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
 
         ${'' /* pad and hole */}
         (pad "1" thru_hole rect (at 0 0) (size ${p.param.pad_size} ${p.param.pad_size}) (drill ${p.param.hole_size}) (layers *.Cu *.Mask) (zone_connect 0) ${p.net.from.str})
