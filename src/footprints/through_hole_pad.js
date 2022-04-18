@@ -1,6 +1,6 @@
 // Through Hole Pad
 // Nets
-//		net: the net this via should be connected to
+//		net: the net this pad should be connected to
 // Parameters
 //        class: the class of the footprint
 //        hole_size: the size of drill hole
