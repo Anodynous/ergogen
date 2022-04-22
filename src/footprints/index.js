@@ -7,6 +7,7 @@ module.exports = {
     diode_without_via: require('./diode_without_via'),
     jstph: require('./jstph'),
     jumper: require('./jumper'),
+    level_shifter_TXB0104D: require('./level_shifter_TXB0104D'),
     mountinghole: require('./mountinghole'),
     mx: require('./mx'),
     oled: require('./oled'),
