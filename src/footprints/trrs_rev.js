@@ -121,7 +121,7 @@ module.exports = {
                (xy 0.6 0) (xy -0.6 0) (xy -0.6 -1) (xy 0 -0.4) (xy 0.6 -1)
       ) (width 0))
           ) ${p.net.A.str})
-        (pad "" smd custom (at 3.048 11.8 ${p.rot + 90}) (size 0.1 0.1) (layers *.Mask F.Cu)
+        (pad "" smd custom (at 3.048 11.8 ${p.rot + 90}) (size 0.1 0.1) (layers F.Mask F.Cu)
           (clearance 0.1) (zone_connect 0)
           (options (clearance outline) (anchor rect))
           (primitives
